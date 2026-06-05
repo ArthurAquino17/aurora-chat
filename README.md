@@ -10,6 +10,10 @@ Chatbot emocional local, leve e sem API externa. O backend usa apenas Python pur
 
 ## Rodar
 
+```executavel.exe
+    dois cliques
+``
+
 ```bash
 python3 backend.py
 ```
