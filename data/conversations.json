@@ -1,0 +1,554 @@
+{
+  "test-persistencia-solido": [
+    {
+      "sender": "user",
+      "text": "Estou sentindo solidão."
+    },
+    {
+      "sender": "bot",
+      "text": "Entendi melhor por esse pedaco. Voce trouxe \"Estou sentindo solidão\". Estou captando solidao, e parece presente agora.\n\nA sensacao de estar sem apoio costuma aumentar o volume de qualquer dor.\n\nEscolha uma ponte pequena: mandar uma mensagem simples, ficar perto de alguem ou nomear aqui o que voce queria receber.\n\nQual seria um proximo passo pequeno o bastante para caber no seu estado atual?"
+    },
+    {
+      "sender": "user",
+      "text": "acolhimento"
+    },
+    {
+      "sender": "bot",
+      "text": "Ta. Vou ficar no acolhimento, sem correr para resolver. Quando voce fala de \"Estou sentindo solidão\", faz sentido que solidao pese. Eu nao vou tentar reduzir isso a uma solucao rapida.\n\nPor enquanto, voce nao precisa transformar isso em plano. Pode so deixar a dor ter nome aqui.\n\nO que voce mais queria receber agora: presenca, escuta, colo simbolico ou silencio acompanhado?"
+    },
+    {
+      "sender": "user",
+      "text": "perdi uma copanhia"
+    },
+    {
+      "sender": "bot",
+      "text": "Nao vou tratar essa frase como assunto novo; ela parece parte do mesmo fio. Estou captando tristeza com um pouco de luto, e parece presente agora.\n\nComo voce esta respondendo em partes curtas, vou manter o contexto anterior em vez de tratar cada frase como um assunto novo.\n\nPor agora, tente nao discutir com a tristeza. So nomeie: 'isso doi porque...'. Uma frase basta.\n\nQual foi o gatilho mais perto disso?"
+    },
+    {
+      "sender": "user",
+      "text": "isso doi porque e triste"
+    },
+    {
+      "sender": "bot",
+      "text": "Isso da mais contorno ao que voce esta vivendo. Voce trouxe \"isso doi porque e triste\". Estou captando tristeza, e parece presente agora.\n\nVou responder pelo que aparece agora, sem tentar fechar diagnostico sobre voce.\n\nPor agora, tente nao discutir com a tristeza. So nomeie: 'isso doi porque...'. Uma frase basta.\n\nOnde isso aparece no corpo agora?"
+    },
+    {
+      "sender": "user",
+      "text": "e frustrante"
+    },
+    {
+      "sender": "bot",
+      "text": "Esse detalhe conversa com o que voce vinha trazendo. Estou captando raiva, e parece presente agora.\n\nComo voce esta respondendo em partes curtas, vou manter o contexto anterior em vez de tratar cada frase como um assunto novo.\n\nAntes de agir, descarregue em texto cru por 60 segundos. Depois separe fato, limite e pedido.\n\nVoce quer mais acolhimento, clareza ou um plano de acao?"
+    },
+    {
+      "sender": "user",
+      "text": "clareza"
+    },
+    {
+      "sender": "bot",
+      "text": "Vamos por clareza: uma parte e o fato, outra e o sentimento, outra e a necessidade.\n\nPelo fio da conversa, o sentimento mais forte parece raiva. A necessidade talvez seja presenca, seguranca ou reconhecimento.\n\nQual dessas tres palavras chega mais perto: presenca, seguranca ou reconhecimento?"
+    }
+  ],
+  "test-persistencia-solido-2": [
+    {
+      "sender": "user",
+      "text": "Estou sentindo solidão."
+    },
+    {
+      "sender": "bot",
+      "text": "Entendi melhor por esse pedaco. Voce trouxe \"Estou sentindo solidão\". Estou captando solidao, e parece presente agora.\n\nA sensacao de estar sem apoio costuma aumentar o volume de qualquer dor.\n\nEscolha uma ponte pequena: mandar uma mensagem simples, ficar perto de alguem ou nomear aqui o que voce queria receber.\n\nQual seria um proximo passo pequeno o bastante para caber no seu estado atual?"
+    },
+    {
+      "sender": "user",
+      "text": "acolhimento"
+    },
+    {
+      "sender": "bot",
+      "text": "Ta. Vou ficar no acolhimento, sem correr para resolver. Quando voce fala de \"Estou sentindo solidão\", faz sentido que solidao pese. Eu nao vou tentar reduzir isso a uma solucao rapida.\n\nPor enquanto, voce nao precisa transformar isso em plano. Pode so deixar a dor ter nome aqui.\n\nO que voce mais queria receber agora: presenca, escuta, colo simbolico ou silencio acompanhado?"
+    },
+    {
+      "sender": "user",
+      "text": "perdi uma copanhia"
+    },
+    {
+      "sender": "bot",
+      "text": "Nao vou tratar essa frase como assunto novo; ela parece parte do mesmo fio. Estou captando tristeza com um pouco de luto, e parece presente agora.\n\nComo voce esta respondendo em partes curtas, vou manter o contexto anterior em vez de tratar cada frase como um assunto novo.\n\nPor agora, tente nao discutir com a tristeza. So nomeie: 'isso doi porque...'. Uma frase basta.\n\nO vazio esta mais na rotina, na saudade, ou na sensacao de nao ter para quem voltar?"
+    },
+    {
+      "sender": "user",
+      "text": "isso doi porque e triste"
+    },
+    {
+      "sender": "bot",
+      "text": "Isso da mais contorno ao que voce esta vivendo. Voce trouxe \"isso doi porque e triste\". Estou captando tristeza, e parece presente agora.\n\nVou responder pelo que aparece agora, sem tentar fechar diagnostico sobre voce.\n\nPor agora, tente nao discutir com a tristeza. So nomeie: 'isso doi porque...'. Uma frase basta.\n\nOnde isso aparece no corpo agora?"
+    },
+    {
+      "sender": "user",
+      "text": "e frustrante"
+    },
+    {
+      "sender": "bot",
+      "text": "Esse detalhe conversa com o que voce vinha trazendo. Estou captando raiva, e parece presente agora.\n\nComo voce esta respondendo em partes curtas, vou manter o contexto anterior em vez de tratar cada frase como um assunto novo.\n\nAntes de agir, descarregue em texto cru por 60 segundos. Depois separe fato, limite e pedido.\n\nSe essa frustracao pudesse reclamar de uma coisa, qual seria?"
+    }
+  ],
+  "aurora-mpzmwigj-t663gvg0": [
+    {
+      "sender": "bot",
+      "text": "Estou aqui com você. O que aconteceu hoje?"
+    },
+    {
+      "sender": "user",
+      "text": "me sinto bem"
+    },
+    {
+      "sender": "bot",
+      "text": "Faz sentido esse ponto ter ficado sensivel. Voce trouxe \"me sinto bem\". Entendi. Tem algo importante ai, mesmo que ainda esteja meio sem nome.\n\nVou responder pelo que aparece agora, sem tentar fechar diagnostico sobre voce.\n\nVamos transformar isso em algo observavel: fato, sentimento, necessidade e proximo passo.\n\nVoce quer mais acolhimento, clareza ou um plano de acao?"
+    },
+    {
+      "sender": "user",
+      "text": "Estou sentindo alegria."
+    },
+    {
+      "sender": "bot",
+      "text": "Entendi melhor por esse pedaco. Voce trouxe \"Estou sentindo alegria\". Entendi. Tem algo importante ai, mesmo que ainda esteja meio sem nome.\n\nVou responder pelo que aparece agora, sem tentar fechar diagnostico sobre voce.\n\nVamos transformar isso em algo observavel: fato, sentimento, necessidade e proximo passo.\n\nO que seria um sinal pequeno de alivio nos proximos minutos?"
+    },
+    {
+      "sender": "user",
+      "text": "dificuldade de conseguir emprego"
+    },
+    {
+      "sender": "bot",
+      "text": "Entendi melhor por esse pedaco. Voce trouxe \"dificuldade de conseguir emprego\". Estou captando alegria, e parece presente agora.\n\nVou responder pelo que aparece agora, sem tentar fechar diagnostico sobre voce.\n\nRegistre esse ponto bom com detalhes. Isso ajuda a mente a reconhecer caminhos que funcionam.\n\nO que voce precisava ter recebido nesse momento?"
+    },
+    {
+      "sender": "user",
+      "text": "Estou sentindo autoestima."
+    },
+    {
+      "sender": "bot",
+      "text": "Nao vou tratar essa frase como assunto novo; ela parece parte do mesmo fio. Estou captando alegria, e parece presente agora.\n\nComo voce esta respondendo em partes curtas, vou manter o contexto anterior em vez de tratar cada frase como um assunto novo.\n\nRegistre esse ponto bom com detalhes. Isso ajuda a mente a reconhecer caminhos que funcionam.\n\nQual seria um proximo passo pequeno o bastante para caber no seu estado atual?"
+    },
+    {
+      "sender": "user",
+      "text": "como vc esta"
+    },
+    {
+      "sender": "bot",
+      "text": "Vou manter o contexto anterior aqui. Estou captando alegria, e parece presente agora.\n\nComo voce esta respondendo em partes curtas, vou manter o contexto anterior em vez de tratar cada frase como um assunto novo.\n\nRegistre esse ponto bom com detalhes. Isso ajuda a mente a reconhecer caminhos que funcionam.\n\nQual parte disso voce consegue cuidar sem resolver tudo agora?"
+    }
+  ],
+  "test-ollama-emocional": [
+    {
+      "sender": "user",
+      "text": "Estou sentindo solidão."
+    },
+    {
+      "sender": "bot",
+      "text": "Entendi melhor por esse pedaco. Voce trouxe \"Estou sentindo solidão\". Estou captando solidao, e parece presente agora.\n\nA sensacao de estar sem apoio costuma aumentar o volume de qualquer dor.\n\nEscolha uma ponte pequena: mandar uma mensagem simples, ficar perto de alguem ou nomear aqui o que voce queria receber.\n\nQual seria um proximo passo pequeno o bastante para caber no seu estado atual?"
+    },
+    {
+      "sender": "user",
+      "text": "acolhimento"
+    },
+    {
+      "sender": "bot",
+      "text": "Ta. Vou ficar no acolhimento, sem correr para resolver. Quando voce fala de \"Estou sentindo solidão\", faz sentido que solidao pese. Eu nao vou tentar reduzir isso a uma solucao rapida.\n\nPor enquanto, voce nao precisa transformar isso em plano. Pode so deixar a dor ter nome aqui.\n\nO que voce mais queria receber agora: presenca, escuta, colo simbolico ou silencio acompanhado?"
+    },
+    {
+      "sender": "user",
+      "text": "perdi uma companhia que era importante pra mim"
+    },
+    {
+      "sender": "bot",
+      "text": "Faz sentido esse ponto ter ficado sensivel. Voce trouxe \"perdi uma companhia que era importante pra mim\". Estou captando tristeza com um pouco de luto, e parece presente agora.\n\nVou responder pelo que aparece agora, sem tentar fechar diagnostico sobre voce.\n\nPor agora, tente nao discutir com a tristeza. So nomeie: 'isso doi porque...'. Uma frase basta.\n\nO vazio esta mais na rotina, na saudade, ou na sensacao de nao ter para quem voltar?"
+    }
+  ],
+  "test-pysentimiento-fallback": [
+    {
+      "sender": "user",
+      "text": "estou triste e sozinho"
+    },
+    {
+      "sender": "bot",
+      "text": "Isso da mais contorno ao que voce esta vivendo. Voce trouxe \"estou triste e sozinho\". Estou captando tristeza com um pouco de solidao, e parece presente agora.\n\nA sensacao de estar sem apoio costuma aumentar o volume de qualquer dor.\n\nPor agora, tente nao discutir com a tristeza. So nomeie: 'isso doi porque...'. Uma frase basta.\n\nQual seria um proximo passo pequeno o bastante para caber no seu estado atual?"
+    }
+  ],
+  "test-sem-pysentimiento": [
+    {
+      "sender": "user",
+      "text": "estou triste e sozinho"
+    },
+    {
+      "sender": "bot",
+      "text": "Isso da mais contorno ao que voce esta vivendo. Voce trouxe \"estou triste e sozinho\". Estou captando tristeza com um pouco de solidao, e parece presente agora.\n\nA sensacao de estar sem apoio costuma aumentar o volume de qualquer dor.\n\nPor agora, tente nao discutir com a tristeza. So nomeie: 'isso doi porque...'. Uma frase basta.\n\nQual seria um proximo passo pequeno o bastante para caber no seu estado atual?"
+    }
+  ],
+  "test-leve": [
+    {
+      "sender": "user",
+      "text": "estou triste e sozinho"
+    },
+    {
+      "sender": "bot",
+      "text": "Isso da mais contorno ao que voce esta vivendo. Voce trouxe \"estou triste e sozinho\". Estou captando tristeza com um pouco de solidao, e parece presente agora.\n\nA sensacao de estar sem apoio costuma aumentar o volume de qualquer dor.\n\nPor agora, tente nao discutir com a tristeza. So nomeie: 'isso doi porque...'. Uma frase basta.\n\nQual seria um proximo passo pequeno o bastante para caber no seu estado atual?"
+    }
+  ],
+  "test-ollama-config": [
+    {
+      "sender": "user",
+      "text": "estou me sentindo sozinho hoje"
+    },
+    {
+      "sender": "bot",
+      "text": "Isso da mais contorno ao que voce esta vivendo. Voce trouxe \"estou me sentindo sozinho hoje\". Estou captando ansiedade com um pouco de tristeza, e parece presente agora.\n\nPensamento em looping geralmente precisa de limite gentil, nao de mais debate interno.\n\nVamos baixar a urgencia: solte os ombros, encoste os pes no chao e descreva uma coisa concreta ao seu redor.\n\nQual pensamento esta repetindo mais: uma previsao, uma culpa ou uma cena?"
+    }
+  ],
+  "test-llama32": [
+    {
+      "sender": "user",
+      "text": "estou me sentindo sozinho hoje"
+    },
+    {
+      "sender": "bot",
+      "text": "Isso da mais contorno ao que voce esta vivendo. Voce trouxe \"estou me sentindo sozinho hoje\". Estou captando ansiedade com um pouco de tristeza, e parece presente agora.\n\nPensamento em looping geralmente precisa de limite gentil, nao de mais debate interno.\n\nVamos baixar a urgencia: solte os ombros, encoste os pes no chao e descreva uma coisa concreta ao seu redor.\n\nQual pensamento esta repetindo mais: uma previsao, uma culpa ou uma cena?"
+    }
+  ],
+  "test-index-ollama": [
+    {
+      "sender": "user",
+      "text": "Estou sentindo solidão porque perdi uma companhia e queria acolhimento"
+    },
+    {
+      "sender": "bot",
+      "text": "Ta. Vou ficar no acolhimento, sem tentar resolver rapido.\n\nO que voce esta sentindo nao precisa estar organizado perfeitamente para ser valido.\n\nSe eu ficasse so do seu lado nessa dor, qual parte voce gostaria que eu testemunhasse?"
+    }
+  ],
+  "teste-local-leve": [
+    {
+      "sender": "user",
+      "text": "Estou sentindo solidão porque perdi uma companhia e queria acolhimento"
+    },
+    {
+      "sender": "bot",
+      "text": "Ta. Vou ficar no acolhimento, sem tentar resolver rapido.\n\nO que voce esta sentindo nao precisa estar organizado perfeitamente para ser valido.\n\nSe eu ficasse so do seu lado nessa dor, qual parte voce gostaria que eu testemunhasse?"
+    }
+  ],
+  "teste-difflib": [
+    {
+      "sender": "user",
+      "text": "estou ancioso e sobrecaregado"
+    },
+    {
+      "sender": "bot",
+      "text": "Isso da mais contorno ao que voce esta vivendo. Voce trouxe \"estou ancioso e sobrecaregado\". Estou captando cansaco com um pouco de estresse, e parece presente agora.\n\nVou responder pelo que aparece agora, sem tentar fechar diagnostico sobre voce.\n\nSeu proximo passo pode ser fisiologico: agua, banho, comida simples, deitar 10 minutos ou desligar uma cobranca.\n\nQual seria um proximo passo pequeno o bastante para caber no seu estado atual?"
+    }
+  ],
+  "teste-time-1": [
+    {
+      "sender": "user",
+      "text": "estou triste"
+    },
+    {
+      "sender": "bot",
+      "text": "Estou acompanhando o fio. Voce trouxe \"estou triste\". Estou captando tristeza, e parece presente agora.\n\nVou responder pelo que aparece agora, sem tentar fechar diagnostico sobre voce.\n\nPor agora, tente nao discutir com a tristeza. So nomeie: 'isso doi porque...'. Uma frase basta.\n\nOnde isso aparece no corpo agora?"
+    }
+  ],
+  "teste-time-2": [
+    {
+      "sender": "user",
+      "text": "estou triste"
+    },
+    {
+      "sender": "bot",
+      "text": "Entendi melhor por esse pedaco. Voce trouxe \"estou triste\". Estou captando tristeza, e parece presente agora.\n\nVou responder pelo que aparece agora, sem tentar fechar diagnostico sobre voce.\n\nPor agora, tente nao discutir com a tristeza. So nomeie: 'isso doi porque...'. Uma frase basta.\n\nQual seria um proximo passo pequeno o bastante para caber no seu estado atual?"
+    }
+  ],
+  "aurora-mq0e9pjc-hawbb23v": [
+    {
+      "sender": "user",
+      "text": "a distancia que atrapalha estarmos juntos"
+    },
+    {
+      "sender": "bot",
+      "text": "Estou acompanhando o fio. Voce trouxe \"a distancia que atrapalha estarmos juntos\". Entendi. Tem algo importante ai, mesmo que ainda esteja meio sem nome.\n\nVou responder pelo que aparece agora, sem tentar fechar diagnostico sobre voce.\n\nSe couber, escolha uma memoria concreta dessa pessoa ou situacao. Nao para doer menos, mas para dar forma ao amor e a perda.\n\nOnde isso aparece no corpo agora?"
+    },
+    {
+      "sender": "user",
+      "text": "as memorias positivas de apredizado e respeito"
+    },
+    {
+      "sender": "bot",
+      "text": "Entendi melhor por esse pedaco. Voce trouxe \"as memorias positivas de apredizado e respeito\". Entendi. Tem algo importante ai, mesmo que ainda esteja meio sem nome.\n\nComo o corpo apareceu, primeiro vale regular o ritmo antes de tirar conclusoes.\n\nSe couber, escolha uma memoria concreta dessa pessoa ou situacao. Nao para doer menos, mas para dar forma ao amor e a perda.\n\nDe 0 a 10, quanto seu corpo esta ativado neste momento?"
+    },
+    {
+      "sender": "user",
+      "text": "10"
+    },
+    {
+      "sender": "bot",
+      "text": "Vou manter o contexto anterior aqui. Estou captando luto, e parece presente agora.\n\nComo voce esta respondendo em partes curtas, vou manter o contexto anterior em vez de tratar cada frase como um assunto novo.\n\nSe couber, escolha uma memoria concreta dessa pessoa ou situacao. Nao para doer menos, mas para dar forma ao amor e a perda.\n\nSe eu ficasse so do seu lado nessa dor, qual parte voce gostaria que eu testemunhasse?"
+    },
+    {
+      "sender": "user",
+      "text": "estar no meu lugar"
+    },
+    {
+      "sender": "bot",
+      "text": "Esse detalhe conversa com o que voce vinha trazendo. Entendi. Tem algo importante ai, mesmo que ainda esteja meio sem nome.\n\nComo voce esta respondendo em partes curtas, vou manter o contexto anterior em vez de tratar cada frase como um assunto novo.\n\nVamos transformar isso em algo observavel: fato, sentimento, necessidade e proximo passo.\n\nDe 0 a 10, quanto seu corpo esta ativado neste momento?"
+    },
+    {
+      "sender": "user",
+      "text": "Estou sentindo solidão."
+    },
+    {
+      "sender": "bot",
+      "text": "Vou manter o contexto anterior aqui. Estou captando solidao, e parece presente agora.\n\nComo voce esta respondendo em partes curtas, vou manter o contexto anterior em vez de tratar cada frase como um assunto novo.\n\nPor uma lente freudiana, vale olhar se isso toca desejo, culpa, defesa ou alguma repeticao afetiva antiga.\n\nEscolha uma ponte pequena: mandar uma mensagem simples, ficar perto de alguem ou nomear aqui o que voce queria receber.\n\nO que voce mais queria receber agora: presenca, escuta, colo simbolico ou silencio acompanhado?"
+    },
+    {
+      "sender": "user",
+      "text": "tudo menos colo simbolico"
+    },
+    {
+      "sender": "bot",
+      "text": "Esse detalhe conversa com o que voce vinha trazendo. Estou captando solidao, e parece presente agora.\n\nComo voce esta respondendo em partes curtas, vou manter o contexto anterior em vez de tratar cada frase como um assunto novo.\n\nPor uma lente junguiana, isso pode ser visto como imagem psiquica: algo pedindo simbolo, integracao ou menos mascara.\n\nEscolha uma ponte pequena: mandar uma mensagem simples, ficar perto de alguem ou nomear aqui o que voce queria receber.\n\nQual pedaco disso esta mais sozinho dentro de voce?"
+    },
+    {
+      "sender": "user",
+      "text": "ficar perto dela, e ter afeto"
+    },
+    {
+      "sender": "bot",
+      "text": "Estou acompanhando o fio. Voce trouxe \"ficar perto dela, e ter afeto\". Estou captando ansiedade, e parece presente agora.\n\nVou responder pelo que aparece agora, sem tentar fechar diagnostico sobre voce.\n\nVamos baixar a urgencia: solte os ombros, encoste os pes no chao e descreva uma coisa concreta ao seu redor.\n\nQual foi o gatilho mais perto disso?"
+    },
+    {
+      "sender": "user",
+      "text": "tudo é um gatilho quando se vive junto"
+    },
+    {
+      "sender": "bot",
+      "text": "Isso da mais contorno ao que voce esta vivendo. Voce trouxe \"tudo é um gatilho quando se vive junto\". Entendi. Tem algo importante ai, mesmo que ainda esteja meio sem nome.\n\nVou responder pelo que aparece agora, sem tentar fechar diagnostico sobre voce.\n\nEscolha uma ponte pequena: mandar uma mensagem simples, ficar perto de alguem ou nomear aqui o que voce queria receber.\n\nQual foi o gatilho mais perto disso?"
+    },
+    {
+      "sender": "user",
+      "text": "sair de casa"
+    },
+    {
+      "sender": "bot",
+      "text": "Nao vou tratar essa frase como assunto novo; ela parece parte do mesmo fio. Estou captando solidao, e parece presente agora.\n\nComo voce esta respondendo em partes curtas, vou manter o contexto anterior em vez de tratar cada frase como um assunto novo.\n\nPor uma lente freudiana, vale olhar se isso toca desejo, culpa, defesa ou alguma repeticao afetiva antiga.\n\nEscolha uma ponte pequena: mandar uma mensagem simples, ficar perto de alguem ou nomear aqui o que voce queria receber.\n\nQual pedaco disso esta mais sozinho dentro de voce?"
+    },
+    {
+      "sender": "user",
+      "text": "mudar de assunto"
+    },
+    {
+      "sender": "bot",
+      "text": "Esse detalhe conversa com o que voce vinha trazendo. Estou captando ansiedade, e parece presente agora.\n\nVou considerar isso como continuacao do mesmo fio, porque frases curtas tambem carregam contexto.\n\nA resistencia pode ser uma protecao: algo em voce talvez saiba que tocar nesse ponto exige cuidado.\n\nAntes de resolver, tente voltar para o corpo: respire mais lento e procure cinco detalhes no ambiente.\n\nO que voce imagina que aconteceria se chegasse um pouco mais perto desse assunto?"
+    },
+    {
+      "sender": "user",
+      "text": "ficaria mais triste pela ausencia do outro"
+    },
+    {
+      "sender": "bot",
+      "text": "Vou pegar isso com cuidado. O ponto mais vivo parece ser \"ficaria mais triste pela ausencia do outro\". Estou captando tristeza, e parece presente agora.\n\nA leitura ainda e parcial, entao vou tratar isso como pista, nao como rotulo.\n\nA falta pode organizar o sofrimento: as vezes a dor nao e apenas pelo que aconteceu, mas pelo lugar que ficou sem preenchimento.\n\nTalvez o primeiro cuidado seja admitir a dor sem tentar convencer ela a ir embora.\n\nO que exatamente ficou faltando: presenca, seguranca, reconhecimento, rotina ou futuro imaginado?"
+    },
+    {
+      "sender": "user",
+      "text": "todos os fatores"
+    },
+    {
+      "sender": "bot",
+      "text": "Esse detalhe conversa com o que voce vinha trazendo. O que aparece com mais forca e tristeza; a intensidade parece presente.\n\nNao vou isolar essa resposta; ela parece ligada ao que veio antes.\n\nTalvez o primeiro cuidado seja admitir a dor sem tentar convencer ela a ir embora.\n\nQual pedaco disso esta mais sozinho dentro de voce?"
+    },
+    {
+      "sender": "user",
+      "text": "futuro imaginado"
+    },
+    {
+      "sender": "bot",
+      "text": "Isso parece uma continuacao, nao um ponto solto. Pelo jeito que voce escreveu, tristeza esta bem presente nesse momento.\n\nNao vou isolar essa resposta; ela parece ligada ao que veio antes.\n\nTalvez o primeiro cuidado seja admitir a dor sem tentar convencer ela a ir embora.\n\nQual pedaco disso esta mais sozinho dentro de voce?"
+    },
+    {
+      "sender": "user",
+      "text": "a ausencia do outro"
+    },
+    {
+      "sender": "bot",
+      "text": "Esse detalhe conversa com o que voce vinha trazendo. Pelo jeito que voce escreveu, tristeza esta bem presente nesse momento.\n\nVou considerar isso como continuacao do mesmo fio, porque frases curtas tambem carregam contexto.\n\nA falta pode organizar o sofrimento: as vezes a dor nao e apenas pelo que aconteceu, mas pelo lugar que ficou sem preenchimento.\n\nPor agora, tente nao discutir com a tristeza. So nomeie: 'isso doi porque...'. Uma frase basta.\n\nSe eu ficasse so do seu lado nessa dor, qual parte voce gostaria que eu testemunhasse?"
+    },
+    {
+      "sender": "user",
+      "text": "isso doi por que amo"
+    },
+    {
+      "sender": "bot",
+      "text": "Essa parte merece um pouco mais de espaco. Vou partir dessa parte: \"isso doi por que amo\". Nao vou forcar uma etiqueta. Vou ficar perto do que apareceu.\n\nA leitura ainda e parcial, entao vou tratar isso como pista, nao como rotulo.\n\nA pergunta junguiana por sentido nao tenta explicar tudo; ela procura o que essa experiencia pode pedir da vida psiquica.\n\nTalvez o primeiro cuidado seja admitir a dor sem tentar convencer ela a ir embora.\n\nSem justificar a dor, que pergunta de sentido ela esta abrindo em voce?"
+    }
+  ],
+  "teste-jung": [
+    {
+      "sender": "user",
+      "text": "tive um sonho estranho com uma sombra e uma mascara"
+    },
+    {
+      "sender": "bot",
+      "text": "Entendi melhor por esse pedaco. Voce trouxe \"tive um sonho estranho com uma sombra e uma mascara\". Entendi. Tem algo importante ai, mesmo que ainda esteja meio sem nome.\n\nVou responder pelo que aparece agora, sem tentar fechar diagnostico sobre voce.\n\nPor uma lente junguiana, isso pode ser visto como imagem psiquica: algo pedindo simbolo, integracao ou menos mascara.\n\nVamos transformar isso em algo observavel: fato, sentimento, necessidade e proximo passo.\n\nO que essa situacao mostra sobre a diferenca entre quem voce e e quem precisa parecer ser?"
+    }
+  ],
+  "teste-freud": [
+    {
+      "sender": "user",
+      "text": "sinto culpa quando penso na minha mae e parece que repito isso desde a infancia"
+    },
+    {
+      "sender": "bot",
+      "text": "Estou acompanhando o fio. Voce trouxe \"sinto culpa quando penso na minha mae e parece que repito isso desde a infancia\". Estou captando culpa, e parece presente agora.\n\nCom familia, a emocao costuma carregar historia antiga junto do problema de hoje.\n\nPor uma lente freudiana, vale olhar se isso toca desejo, culpa, defesa ou alguma repeticao afetiva antiga.\n\nVamos separar responsabilidade de ataque pessoal. O que voce faria diferente se pudesse reparar sem se destruir?\n\nIsso parece uma dor de agora ou tambem lembra algo antigo?"
+    }
+  ],
+  "teste-repeticao-1": [
+    {
+      "sender": "user",
+      "text": "estou triste"
+    },
+    {
+      "sender": "bot",
+      "text": "Faz sentido esse ponto ter ficado sensivel. Vou partir dessa parte: \"estou triste\". O que aparece com mais forca e tristeza; a intensidade parece presente.\n\nVou responder pelo que aparece agora, sem tentar fechar diagnostico sobre voce.\n\nTente dar uma frase simples para essa tristeza, sem corrigir nem enfeitar.\n\nVoce quer mais acolhimento, clareza ou um plano de acao?"
+    }
+  ],
+  "teste-repeticao-2": [
+    {
+      "sender": "user",
+      "text": "estou triste"
+    },
+    {
+      "sender": "bot",
+      "text": "Peguei uma nuance importante aqui. Voce trouxe \"estou triste\". Pelo jeito que voce escreveu, tristeza esta bem presente nesse momento.\n\nVou ficar no que da para perceber daqui, sem forcar uma conclusao sobre voce.\n\nPor agora, tente nao discutir com a tristeza. So nomeie: 'isso doi porque...'. Uma frase basta.\n\nQual parte disso voce consegue cuidar sem resolver tudo agora?"
+    }
+  ],
+  "aurora-mpzpr6hs-0enuvcle": [
+    {
+      "sender": "bot",
+      "text": "Estou aqui com você. O que aconteceu hoje?"
+    },
+    {
+      "sender": "user",
+      "text": "nada"
+    },
+    {
+      "sender": "bot",
+      "text": "Entendi. Tem algo importante aí, mesmo que ainda esteja meio sem nome.\n\nVou responder pelo que aparece agora, sem tentar fechar diagnóstico sobre você.\n\nVamos transformar isso em algo observável: fato, sentimento, necessidade e próximo passo.\n\nQual parte disso você consegue cuidar sem resolver tudo agora?"
+    },
+    {
+      "sender": "user",
+      "text": "Estou sentindo solidão."
+    },
+    {
+      "sender": "bot",
+      "text": "Estou acompanhando o fio. Voce trouxe \"Estou sentindo solidão\". A leitura que chega aqui e solidao, com um peso presente.\n\nA sensacao de estar sem apoio costuma aumentar o volume de qualquer dor.\n\nPor uma lente freudiana, vale olhar se isso toca desejo, culpa, defesa ou alguma repeticao afetiva antiga.\n\nTalvez a ponte de agora seja minima: dizer a alguem 'nao estou bem' ja conta.\n\nQuando isso acontece, voce tende a se defender atacando, sumindo, agradando ou se culpando?"
+    },
+    {
+      "sender": "user",
+      "text": "se culpando"
+    },
+    {
+      "sender": "bot",
+      "text": "Nao vou tratar essa frase como assunto novo; ela parece parte do mesmo fio. O que aparece com mais forca e culpa; a intensidade parece presente.\n\nComo voce esta respondendo em partes curtas, vou manter o contexto anterior em vez de tratar cada frase como um assunto novo.\n\nPor uma lente freudiana, vale olhar se isso toca desejo, culpa, defesa ou alguma repeticao afetiva antiga.\n\nVamos separar responsabilidade de ataque pessoal. O que voce faria diferente se pudesse reparar sem se destruir?\n\nIsso parece uma dor de agora ou tambem lembra algo antigo?"
+    },
+    {
+      "sender": "user",
+      "text": "dor recente ela foi pra cidade dela dia 27"
+    },
+    {
+      "sender": "bot",
+      "text": "Essa parte merece um pouco mais de espaco. Vou partir dessa parte: \"dor recente ela foi pra cidade dela dia 27\". O que aparece com mais forca e tristeza; a intensidade parece presente.\n\nVou ficar no que da para perceber daqui, sem forcar uma conclusao sobre voce.\n\nPor agora, tente nao discutir com a tristeza. So nomeie: 'isso doi porque...'. Uma frase basta.\n\nOnde isso aparece no corpo agora?"
+    },
+    {
+      "sender": "user",
+      "text": "tire uma conclusao"
+    },
+    {
+      "sender": "bot",
+      "text": "Isso parece uma continuacao, nao um ponto solto. Pelo jeito que voce escreveu, solidao esta bem presente nesse momento.\n\nComo voce esta respondendo em partes curtas, vou manter o contexto anterior em vez de tratar cada frase como um assunto novo.\n\nTalvez a ponte de agora seja minima: dizer a alguem 'nao estou bem' ja conta.\n\nO que voce mais queria receber agora: presenca, escuta, colo simbolico ou silencio acompanhado?"
+    },
+    {
+      "sender": "user",
+      "text": "presenca"
+    },
+    {
+      "sender": "bot",
+      "text": "Vou manter o contexto anterior aqui. Pelo jeito que voce escreveu, solidao esta bem presente nesse momento.\n\nNao vou isolar essa resposta; ela parece ligada ao que veio antes.\n\nEscolha uma ponte pequena: mandar uma mensagem simples, ficar perto de alguem ou nomear aqui o que voce queria receber.\n\nQual pedaco disso esta mais sozinho dentro de voce?"
+    },
+    {
+      "sender": "user",
+      "text": "estou me sentindo  frustrado por nao conseguir emprego"
+    },
+    {
+      "sender": "bot",
+      "text": "Estou acompanhando o fio. Voce trouxe \"estou me sentindo frustrado por nao conseguir emprego\". O que aparece com mais forca e raiva com um pouco de ansiedade; a intensidade parece presente.\n\nQuando a mente repete a cena, talvez ela esteja buscando seguranca, nao uma resposta perfeita.\n\nA individuacao e o processo de se tornar mais inteiro integrando partes separadas. Neste contexto, crises de sentido geralmente indicam que uma forma antiga de viver ja nao organiza tudo como antes.\n\nSegure a acao por um instante e procure o limite que essa raiva esta tentando proteger.\n\nQue parte sua quer existir com mais verdade agora? Que parte sua parece pedir mais verdade, mesmo que isso desorganize um pouco?"
+    },
+    {
+      "sender": "user",
+      "text": "eu quero continuar escrevendo programas mesmo que com outros compromissos"
+    },
+    {
+      "sender": "bot",
+      "text": "Tem um sinal emocional bem vivo nessa frase. A frase que fica em destaque e \"eu quero continuar escrevendo programas mesmo que com outros compromissos\". Ainda nao esta totalmente claro, mas parece haver uma coisa pedindo atencao.\n\nVou responder pelo que aparece agora, sem tentar fechar diagnostico sobre voce.\n\nO self aponta para uma totalidade maior que o ego e para uma direcao de integracao. Neste contexto, a experiencia de estar sem amparo pode aumentar a urgencia emocional e fazer a dor parecer maior que o evento isolado.\n\nTente dar uma frase simples para essa tristeza, sem corrigir nem enfeitar.\n\nO que em voce busca inteireza, nao apenas alivio imediato? Que tipo de presenca faria diferenca agora: escuta, protecao, companhia ou reconhecimento?"
+    },
+    {
+      "sender": "user",
+      "text": "proteçao"
+    },
+    {
+      "sender": "bot",
+      "text": "Isso parece continuar a mesma dor, so por outro angulo. O que aparece com mais forca e raiva; a intensidade parece presente.\n\nComo voce esta respondendo em partes curtas, vou manter o contexto anterior em vez de tratar cada frase como um assunto novo.\n\nA raiva pode virar informacao: o que foi ultrapassado, negado ou injusto aqui?\n\nFica comigo nesse ponto: o que exatamente torna isso frustrante agora?"
+    },
+    {
+      "sender": "user",
+      "text": "pois tenho problemas financeiros"
+    },
+    {
+      "sender": "bot",
+      "text": "Vou ligar essa frase ao que ja apareceu antes. Pelo jeito que voce escreveu, raiva esta bem presente nesse momento.\n\nNao vou isolar essa resposta; ela parece ligada ao que veio antes.\n\nAntes de agir, descarregue em texto cru por 60 segundos. Depois separe fato, limite e pedido.\n\nSe essa frustracao pudesse reclamar de uma coisa, qual seria?"
+    }
+  ],
+  "teste-textos-freud-jung": [
+    {
+      "sender": "user",
+      "text": "eu uso uma mascara e escondo minha sombra"
+    },
+    {
+      "sender": "bot",
+      "text": "Essa parte merece um pouco mais de espaco. Vou partir dessa parte: \"eu uso uma mascara e escondo minha sombra\". Nao vou forcar uma etiqueta. Vou ficar perto do que apareceu.\n\nVou ficar no que da para perceber daqui, sem forcar uma conclusao sobre voce.\n\nNa psicologia junguiana, sombra e aquilo que a pessoa tende a rejeitar em si, mas que ainda pede integracao consciente.\n\nVamos transformar isso em algo observavel: fato, sentimento, necessidade e proximo passo.\n\nQue parte sua voce tenta esconder, mas talvez esteja pedindo para ser reconhecida sem julgamento?"
+    }
+  ],
+  "teste-repertorio-expandido": [
+    {
+      "sender": "user",
+      "text": "sempre volto para o mesmo ciclo e repito o mesmo erro"
+    },
+    {
+      "sender": "bot",
+      "text": "Essa parte merece um pouco mais de espaco. Vou partir dessa parte: \"sempre volto para o mesmo ciclo e repito o mesmo erro\". Nao vou forcar uma etiqueta. Vou ficar perto do que apareceu.\n\nVou responder pelo que aparece agora, sem tentar fechar diagnostico sobre voce.\n\nA compulsao a repeticao sugere que certos sofrimentos retornam nao por escolha simples, mas porque algo ainda busca elaboracao.\n\nTente separar o que e fato do que e interpretacao; dai a proxima escolha fica menos nebulosa.\n\nO que voce precisava ter recebido nesse momento?"
+    }
+  ],
+  "teste-500-notas": [
+    {
+      "sender": "user",
+      "text": "estou com medo do tcc e acho que vou fracassar"
+    },
+    {
+      "sender": "bot",
+      "text": "Isso da mais contorno ao que voce esta vivendo. O ponto mais vivo parece ser \"estou com medo do tcc e acho que vou fracassar\". Estou captando ansiedade, e parece presente agora.\n\nVou responder pelo que aparece agora, sem tentar fechar diagnostico sobre voce.\n\nDistorcoes cognitivas sao atalhos mentais que aumentam sofrimento e reduzem nuance. Neste contexto, o corpo pode estar tentando sinalizar ameaca antes que a mente consiga organizar a cena em palavras.\n\nVamos baixar a urgencia: solte os ombros, encoste os pes no chao e descreva uma coisa concreta ao seu redor.\n\nExiste algum sempre, nunca ou tudo/nada deixando essa cena maior? Onde isso aparece primeiro no corpo, e o que muda se voce reduzir a pressa por um minuto?"
+    }
+  ],
+  "teste_login_1780635082:x": [
+    {
+      "sender": "user",
+      "text": "estou triste"
+    },
+    {
+      "sender": "bot",
+      "text": "Estou acompanhando o fio. Voce trouxe \"estou triste\". Pelo jeito que voce escreveu, tristeza esta bem presente nesse momento.\n\nVou ficar no que da para perceber daqui, sem forcar uma conclusao sobre voce.\n\nUma leitura freudiana pergunta que defesa aparece quando a emocao excede a capacidade de elaboracao. Neste contexto, perda e tristeza pedem tempo psiquico; nem toda dor precisa virar solucao imediata.\n\nPor agora, tente nao discutir com a tristeza. So nomeie: 'isso doi porque...'. Uma frase basta.\n\nQual defesa aparece primeiro: explicar, fugir, atacar, agradar, negar ou se culpar? O que exatamente esta sendo perdido: pessoa, rotina, futuro imaginado, seguranca ou parte de voce?"
+    }
+  ]
+}

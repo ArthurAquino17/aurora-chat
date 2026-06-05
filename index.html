@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Chat Bot Emocional</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <section id="auth-screen" class="auth-screen" aria-label="Login">
+      <form id="auth-form" class="auth-card">
+        <p class="eyebrow">Acesso local</p>
+        <h1>Aurora</h1>
+        <p class="auth-copy">Entre ou crie uma conta local para manter sua conversa separada.</p>
+
+        <label for="auth-username">Usuário</label>
+        <input id="auth-username" name="username" type="text" autocomplete="username" minlength="3" maxlength="30" required>
+
+        <label for="auth-password">Senha</label>
+        <input id="auth-password" name="password" type="password" autocomplete="current-password" minlength="6" required>
+
+        <p id="auth-error" class="auth-error" role="alert"></p>
+
+        <div class="auth-actions">
+          <button type="submit" data-auth-action="login">Entrar</button>
+          <button type="submit" data-auth-action="register" class="secondary">Criar conta</button>
+        </div>
+      </form>
+    </section>
+
+    <main id="app-shell" class="app-shell is-hidden">
+      <section class="chat-panel" aria-label="Chat bot emocional">
+        <header class="topbar">
+          <div>
+            <p class="eyebrow">Companhia emocional</p>
+            <h1>Aurora</h1>
+          </div>
+          <div class="topbar-actions">
+            <div class="status" aria-label="Status online">
+              <span></span>
+              <strong id="current-user">IA local</strong>
+            </div>
+            <button id="logout-button" class="ghost-button" type="button">Sair</button>
+          </div>
+        </header>
+
+        <section class="mood-strip" aria-label="Escolha de humor">
+          <button class="mood-chip" type="button" data-mood="ansiedade">Ansiedade</button>
+          <button class="mood-chip" type="button" data-mood="tristeza">Tristeza</button>
+          <button class="mood-chip" type="button" data-mood="raiva">Raiva</button>
+          <button class="mood-chip" type="button" data-mood="cansaço">Cansaço</button>
+          <button class="mood-chip" type="button" data-mood="alegria">Alegria</button>
+          <button class="mood-chip" type="button" data-mood="culpa">Culpa</button>
+          <button class="mood-chip" type="button" data-mood="vergonha">Vergonha</button>
+          <button class="mood-chip" type="button" data-mood="solidão">Solidão</button>
+          <button class="mood-chip" type="button" data-mood="estresse">Estresse</button>
+          <button class="mood-chip" type="button" data-mood="luto">Luto</button>
+          <button class="mood-chip" type="button" data-mood="autoestima">Autoestima</button>
+        </section>
+
+        <div id="messages" class="messages" aria-live="polite"></div>
+
+        <form id="chat-form" class="composer">
+          <label class="sr-only" for="message-input">Mensagem</label>
+          <textarea
+            id="message-input"
+            rows="1"
+            placeholder="Me conta como você está se sentindo..."
+            autocomplete="off"
+          ></textarea>
+          <button type="submit" aria-label="Enviar mensagem">
+            <span>Enviar</span>
+          </button>
+        </form>
+      </section>
+
+      <aside class="side-panel" aria-label="Ferramentas emocionais">
+        <section>
+          <h2>Agora</h2>
+          <p id="reflection">
+            Respire um pouco e escreva sem se cobrar. Eu vou responder com cuidado.
+          </p>
+        </section>
+
+        <section>
+          <h2>Foco</h2>
+          <div class="focus-grid" aria-label="Focos de cuidado">
+            <span>Acolher</span>
+            <span>Nomear</span>
+            <span>Regular</span>
+            <span>Agir</span>
+          </div>
+        </section>
+
+        <section>
+          <h2>Respiração</h2>
+          <div class="breath-orb" aria-hidden="true"></div>
+          <p class="breath-label">Inspire 4s, segure 2s, solte 6s.</p>
+        </section>
+
+        <section class="safety-note">
+          <h2>Importante</h2>
+          <p>
+            Este bot não substitui ajuda profissional. Se você estiver em risco imediato,
+            procure emergência local ou alguém de confiança agora.
+          </p>
+        </section>
+      </aside>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,468 @@
+{
+  "version": 2,
+  "description": "Biblioteca compacta autoral: 50 conceitos psicologicos x 10 contextos = 500 notas expandidas em memoria pelo backend.",
+  "contexts": [
+    {
+      "name": "solidao e desamparo",
+      "keywords": ["solidao", "sozinho", "sozinha", "desamparo", "abandono", "sem apoio", "invisivel"],
+      "note": "a experiencia de estar sem amparo pode aumentar a urgencia emocional e fazer a dor parecer maior que o evento isolado.",
+      "question": "Que tipo de presenca faria diferenca agora: escuta, protecao, companhia ou reconhecimento?"
+    },
+    {
+      "name": "tristeza, perda e luto",
+      "keywords": ["triste", "perda", "luto", "saudade", "morreu", "despedida", "vazio"],
+      "note": "perda e tristeza pedem tempo psiquico; nem toda dor precisa virar solucao imediata.",
+      "question": "O que exatamente esta sendo perdido: pessoa, rotina, futuro imaginado, seguranca ou parte de voce?"
+    },
+    {
+      "name": "ansiedade e corpo",
+      "keywords": ["ansiedade", "ansioso", "ansiosa", "medo", "corpo", "peito", "respirar", "tensao"],
+      "note": "o corpo pode estar tentando sinalizar ameaca antes que a mente consiga organizar a cena em palavras.",
+      "question": "Onde isso aparece primeiro no corpo, e o que muda se voce reduzir a pressa por um minuto?"
+    },
+    {
+      "name": "raiva, limite e conflito",
+      "keywords": ["raiva", "odio", "irritado", "briguei", "conflito", "limite", "injustica"],
+      "note": "a raiva pode carregar uma informacao sobre limite ultrapassado, necessidade ignorada ou dor transformada em defesa.",
+      "question": "Que limite ou pedido esta tentando aparecer por baixo da raiva?"
+    },
+    {
+      "name": "culpa, vergonha e autoataque",
+      "keywords": ["culpa", "vergonha", "errei", "falhei", "me odeio", "fracasso", "nao presto"],
+      "note": "culpa e vergonha podem virar autoataque quando perdem contato com reparo, proporcao e cuidado.",
+      "question": "O que aqui pede reparo real, e o que parece apenas punicao contra voce?"
+    },
+    {
+      "name": "familia, infancia e papeis antigos",
+      "keywords": ["mae", "pai", "familia", "infancia", "crianca", "casa", "irmao", "irma"],
+      "note": "familia e infancia costumam carregar papeis antigos que reaparecem mesmo em situacoes novas.",
+      "question": "Que papel antigo voce sente que esta sendo chamado a ocupar de novo?"
+    },
+    {
+      "name": "relacionamento, apego e ciume",
+      "keywords": ["relacionamento", "namoro", "ex", "ciume", "trai", "abandono", "medo de perder"],
+      "note": "vinculos ativam necessidades de seguranca, pertencimento, autonomia e reconhecimento.",
+      "question": "Nesse vinculo, voce esta pedindo seguranca, liberdade, reparo, escolha ou presenca?"
+    },
+    {
+      "name": "trabalho, estudo e desempenho",
+      "keywords": ["trabalho", "chefe", "empresa", "estudo", "prova", "faculdade", "tcc", "prazo"],
+      "note": "desempenho pode misturar desejo de valor, medo de falhar, comparacao e cobranca interna.",
+      "question": "O que e tarefa concreta aqui, e o que virou julgamento sobre seu valor?"
+    },
+    {
+      "name": "identidade, sentido e mudanca",
+      "keywords": ["quem sou", "identidade", "sentido", "mudanca", "futuro", "caminho", "verdade"],
+      "note": "crises de sentido geralmente indicam que uma forma antiga de viver ja nao organiza tudo como antes.",
+      "question": "Que parte sua parece pedir mais verdade, mesmo que isso desorganize um pouco?"
+    },
+    {
+      "name": "sonhos, simbolos e imagens",
+      "keywords": ["sonho", "sonhei", "pesadelo", "simbolo", "imagem", "sombra", "mascara", "arquetipo"],
+      "note": "imagens e sonhos podem funcionar como linguagem indireta para afetos que ainda nao encontraram discurso simples.",
+      "question": "Se essa imagem tivesse um clima emocional, ela seria aviso, convite, medo, perda ou transformacao?"
+    }
+  ],
+  "concepts": [
+    {
+      "approach": "Psicanalise freudiana",
+      "author": "Freud",
+      "concept": "defesa",
+      "keywords": ["defesa", "evitar", "fugir", "negar", "atacar", "justificar", "nao sentir"],
+      "note": "Uma leitura freudiana pergunta que defesa aparece quando a emocao excede a capacidade de elaboracao.",
+      "question": "Qual defesa aparece primeiro: explicar, fugir, atacar, agradar, negar ou se culpar?"
+    },
+    {
+      "approach": "Psicanalise freudiana",
+      "author": "Freud",
+      "concept": "racionalizacao",
+      "keywords": ["racionalizar", "explicar", "logica", "justificar", "analisar demais"],
+      "note": "A racionalizacao organiza explicacoes para manter distancia de um afeto mais dificil.",
+      "question": "O que talvez voce esteja explicando muito para nao precisar sentir diretamente?"
+    },
+    {
+      "approach": "Psicanalise freudiana",
+      "author": "Freud",
+      "concept": "negacao",
+      "keywords": ["nao e nada", "tanto faz", "nao ligo", "deixa pra la", "nem doeu"],
+      "note": "A negacao protege do impacto imediato, mas pode adiar o reconhecimento da dor.",
+      "question": "Que parte sua diz que nao foi nada, e que parte mostra que foi algo?"
+    },
+    {
+      "approach": "Psicanalise freudiana",
+      "author": "Freud",
+      "concept": "projecao",
+      "keywords": ["me julgam", "eles acham", "ela pensa", "ele pensa", "estao contra", "certeza que"],
+      "note": "A projecao coloca fora uma tensao que talvez esteja dificil de reconhecer internamente.",
+      "question": "O que voce sabe de fato sobre o outro, e o que pode ser leitura defensiva?"
+    },
+    {
+      "approach": "Psicanalise freudiana",
+      "author": "Freud",
+      "concept": "deslocamento",
+      "keywords": ["descontei", "explodi", "sobrou pra", "irritei", "paguei em alguem"],
+      "note": "No deslocamento, um afeto nascido em um lugar aparece em outro mais acessivel ou menos ameacador.",
+      "question": "Essa emocao nasceu aqui, ou veio acumulada de outro lugar?"
+    },
+    {
+      "approach": "Psicanalise freudiana",
+      "author": "Freud",
+      "concept": "repressao",
+      "keywords": ["esqueci", "bloqueei", "nao lembro", "apaguei", "travei"],
+      "note": "A repressao aponta para conteudos mantidos fora da consciencia por parecerem ameacadores.",
+      "question": "Existe algo que voce evita lembrar porque o corpo reage antes das palavras?"
+    },
+    {
+      "approach": "Psicanalise freudiana",
+      "author": "Freud",
+      "concept": "formacao reativa",
+      "keywords": ["faco o contrario", "finjo gostar", "sou frio", "exagero", "trato bem mas"],
+      "note": "A formacao reativa expressa o oposto de um sentimento que seria dificil admitir.",
+      "question": "Tem algum sentimento aparecendo disfarçado pelo seu contrario?"
+    },
+    {
+      "approach": "Psicanalise freudiana",
+      "author": "Freud",
+      "concept": "repeticao",
+      "keywords": ["repetindo", "repeticao", "de novo", "mesma coisa", "padrao", "volta sempre"],
+      "note": "A repeticao pode indicar uma cena psiquica que ainda busca outro destino.",
+      "question": "O que nessa situacao parece conhecido demais?"
+    },
+    {
+      "approach": "Psicanalise freudiana",
+      "author": "Freud",
+      "concept": "compulsao a repeticao",
+      "keywords": ["sempre volto", "nao consigo parar", "ciclo", "repito", "mesmo erro"],
+      "note": "A compulsao a repeticao sugere sofrimento retornando porque algo ainda nao foi elaborado.",
+      "question": "Que final diferente voce parece procurar quando esse ciclo retorna?"
+    },
+    {
+      "approach": "Psicanalise freudiana",
+      "author": "Freud",
+      "concept": "ambivalencia",
+      "keywords": ["amor e odio", "quero e nao quero", "confuso", "misturado", "duas coisas"],
+      "note": "A ambivalencia permite reconhecer sentimentos opostos coexistindo sem que um anule o outro.",
+      "question": "Quais dois sentimentos opostos estao tentando caber no mesmo lugar?"
+    },
+    {
+      "approach": "Psicanalise freudiana",
+      "author": "Freud",
+      "concept": "desejo",
+      "keywords": ["desejo", "vontade", "queria", "precisava", "falta", "anseio"],
+      "note": "A pergunta pelo desejo procura o que a dor denuncia como necessidade, pedido ou impulso.",
+      "question": "Se essa dor revelasse um desejo sem vergonha, qual seria?"
+    },
+    {
+      "approach": "Psicanalise freudiana",
+      "author": "Freud",
+      "concept": "falta",
+      "keywords": ["falta", "vazio", "buraco", "ausencia", "saudade", "sem companhia"],
+      "note": "A falta organiza o sofrimento ao mostrar o lugar que ficou sem presenca ou sentido.",
+      "question": "O que exatamente ficou faltando: presenca, seguranca, reconhecimento, rotina ou futuro?"
+    },
+    {
+      "approach": "Psicanalise freudiana",
+      "author": "Freud",
+      "concept": "luto",
+      "keywords": ["luto", "perda", "morreu", "saudade", "despedida", "nunca mais"],
+      "note": "O luto exige tempo para a mente reposicionar o amor diante da ausencia.",
+      "question": "Que parte dessa perda ainda pede despedida, memoria ou permissao para doer?"
+    },
+    {
+      "approach": "Psicanalise freudiana",
+      "author": "Freud",
+      "concept": "melancolia",
+      "keywords": ["sou um lixo", "nao presto", "me odeio", "sem valor", "fracasso"],
+      "note": "Na melancolia, uma perda pode se voltar contra o proprio eu como autoacusacao.",
+      "question": "Essa acusacao contra voce parece sua, ou parece uma perda virando autoataque?"
+    },
+    {
+      "approach": "Psicanalise freudiana",
+      "author": "Freud",
+      "concept": "culpa",
+      "keywords": ["culpa", "culpado", "culpada", "errei", "falhei", "arrependimento"],
+      "note": "A culpa pode orientar reparo, mas tambem pode virar punicao interna sem proporcao.",
+      "question": "O que pede reparo real, e o que parece apenas castigo contra voce?"
+    },
+    {
+      "approach": "Psicanalise freudiana",
+      "author": "Freud",
+      "concept": "superego",
+      "keywords": ["deveria", "tenho que", "cobranca", "me cobro", "nao posso", "errado"],
+      "note": "O superego aparece como voz interna de exigencia, regra ou censura.",
+      "question": "Essa voz que te cobra parece cuidado, regra antiga ou punicao?"
+    },
+    {
+      "approach": "Psicanalise freudiana",
+      "author": "Freud",
+      "concept": "transferencia",
+      "keywords": ["parece minha mae", "parece meu pai", "lembra alguem", "autoridade", "chefe"],
+      "note": "A transferencia faz sentimentos antigos encontrarem uma pessoa nova.",
+      "question": "Essa pessoa toca apenas o presente, ou tambem lembra alguem do passado?"
+    },
+    {
+      "approach": "Psicanalise freudiana",
+      "author": "Freud",
+      "concept": "resistencia",
+      "keywords": ["nao quero falar", "travado", "mudo de assunto", "da branco", "evito"],
+      "note": "A resistencia pode ser uma protecao diante de um ponto psiquico sensivel.",
+      "question": "O que voce imagina que aconteceria se chegasse um pouco mais perto desse assunto?"
+    },
+    {
+      "approach": "Psicanalise freudiana",
+      "author": "Freud",
+      "concept": "ato falho",
+      "keywords": ["falei sem querer", "escapou", "errei o nome", "ato falho"],
+      "note": "Um ato falho pode ser entendido como pequeno vazamento de algo que estava fora do controle consciente.",
+      "question": "O que pode ter escapado nessa fala sem querer?"
+    },
+    {
+      "approach": "Psicanalise freudiana",
+      "author": "Freud",
+      "concept": "sonho freudiano",
+      "keywords": ["sonho", "sonhei", "pesadelo", "dormi", "acordei"],
+      "note": "O sonho pode condensar desejos, medos e restos do dia em uma cena simbolica.",
+      "question": "Que desejo, medo ou resto do dia parece ter entrado nesse sonho?"
+    },
+    {
+      "approach": "Psicanalise freudiana",
+      "author": "Freud",
+      "concept": "narcisismo",
+      "keywords": ["rejeicao", "humilhado", "orgulho", "ferido", "me trocaram"],
+      "note": "Uma ferida narcisica aparece quando rejeicao ou comparacao atinge a imagem de valor pessoal.",
+      "question": "O que doeu mais: perder alguem, perder lugar ou sentir que voce valia menos?"
+    },
+    {
+      "approach": "Psicanalise freudiana",
+      "author": "Freud",
+      "concept": "principio do prazer",
+      "keywords": ["quero agora", "impulso", "alivio rapido", "prazer", "fugir da dor"],
+      "note": "O principio do prazer busca alivio imediato, nem sempre cuidado duradouro.",
+      "question": "O que aliviaria agora, e o que cuidaria melhor depois?"
+    },
+    {
+      "approach": "Psicanalise freudiana",
+      "author": "Freud",
+      "concept": "principio da realidade",
+      "keywords": ["realidade", "consequencia", "responsabilidade", "limite", "preciso lidar"],
+      "note": "O principio da realidade reconhece limites sem apagar desejo e conflito.",
+      "question": "Qual desejo voce pode reconhecer, mesmo que a realidade peça outro ritmo?"
+    },
+    {
+      "approach": "Psicanalise freudiana",
+      "author": "Freud",
+      "concept": "sublimacao",
+      "keywords": ["arte", "escrever", "musica", "criar", "canalizar", "transformar"],
+      "note": "A sublimacao transforma energia emocional dificil em gesto criativo ou construtivo.",
+      "question": "Essa energia poderia virar escrita, movimento, conversa ou criacao?"
+    },
+    {
+      "approach": "Psicologia analitica",
+      "author": "Jung",
+      "concept": "sombra",
+      "keywords": ["sombra", "inveja", "raiva", "vergonha", "escondo", "nao aceito"],
+      "note": "A sombra representa partes rejeitadas da psique que ainda pedem reconhecimento consciente.",
+      "question": "Que parte sua voce tenta esconder, mas talvez precise reconhecer sem julgamento?"
+    },
+    {
+      "approach": "Psicologia analitica",
+      "author": "Jung",
+      "concept": "persona",
+      "keywords": ["mascara", "persona", "finjo", "aparentar", "papel", "personagem"],
+      "note": "A persona e a face social que ajuda a viver, mas sufoca quando vira prisao.",
+      "question": "Que papel voce sente que precisa representar?"
+    },
+    {
+      "approach": "Psicologia analitica",
+      "author": "Jung",
+      "concept": "self",
+      "keywords": ["inteiro", "centro", "verdade", "eu mesmo", "totalidade"],
+      "note": "O self aponta para uma totalidade maior que o ego e para uma direcao de integracao.",
+      "question": "O que em voce busca inteireza, nao apenas alivio imediato?"
+    },
+    {
+      "approach": "Psicologia analitica",
+      "author": "Jung",
+      "concept": "complexo",
+      "keywords": ["gatilho", "reagi demais", "perdi controle", "mexeu comigo", "complexo"],
+      "note": "Um complexo e um nucleo afetivo carregado que pode tomar a cena quando tocado.",
+      "question": "O que foi tocado para a reacao ficar maior que o fato?"
+    },
+    {
+      "approach": "Psicologia analitica",
+      "author": "Jung",
+      "concept": "arquetipo",
+      "keywords": ["arquetipo", "mito", "heroi", "crianca", "sabio", "jornada"],
+      "note": "Arquetipos organizam imagens humanas recorrentes como cuidado, perda, perigo e transformacao.",
+      "question": "Se isso fosse uma historia simbolica, que figura apareceria nela?"
+    },
+    {
+      "approach": "Psicologia analitica",
+      "author": "Jung",
+      "concept": "sonho junguiano",
+      "keywords": ["sonho", "sonhei", "pesadelo", "imagem", "casa", "agua", "animal"],
+      "note": "O sonho pode compensar a atitude consciente e mostrar partes deixadas de fora.",
+      "question": "O sonho confirma algo que voce sabe, ou mostra algo que ficou excluido?"
+    },
+    {
+      "approach": "Psicologia analitica",
+      "author": "Jung",
+      "concept": "individuacao",
+      "keywords": ["sentido", "quem sou", "mudanca", "integrar", "caminho", "verdade"],
+      "note": "A individuacao e o processo de se tornar mais inteiro integrando partes separadas.",
+      "question": "Que parte sua quer existir com mais verdade agora?"
+    },
+    {
+      "approach": "Psicologia analitica",
+      "author": "Jung",
+      "concept": "sincronicidade",
+      "keywords": ["coincidencia", "sinal", "sincronicidade", "destino", "aconteceu junto"],
+      "note": "A sincronicidade trata coincidencias como acontecimentos significativos para a experiencia subjetiva.",
+      "question": "Que sentido essa coincidencia parece ter para voce, sem precisar provar nada?"
+    },
+    {
+      "approach": "Psicologia analitica",
+      "author": "Jung",
+      "concept": "opostos",
+      "keywords": ["opostos", "duas partes", "contradicao", "dividido", "quero e nao quero"],
+      "note": "Sustentar opostos pode produzir transformacao psiquica sem escolher uma parte cedo demais.",
+      "question": "Quais duas partes suas estao em tensao, e o que cada uma protege?"
+    },
+    {
+      "approach": "Psicologia analitica",
+      "author": "Jung",
+      "concept": "simbolo",
+      "keywords": ["simbolo", "imagem", "figura", "estranho", "mito", "sinal"],
+      "note": "O simbolo permite que a psique fale de algo que ainda nao cabe em explicacao direta.",
+      "question": "Se essa imagem pudesse falar, que necessidade ela nomearia?"
+    },
+    {
+      "approach": "TCC",
+      "author": "TCC",
+      "concept": "pensamentos automaticos",
+      "keywords": ["pensei", "automatico", "na hora", "certeza", "minha mente disse", "tcc", "prova", "faculdade"],
+      "note": "A TCC observa pensamentos automaticos como interpretacoes rapidas, nao fatos absolutos.",
+      "question": "Que pensamento apareceu primeiro, antes da emocao crescer?"
+    },
+    {
+      "approach": "TCC",
+      "author": "TCC",
+      "concept": "distorcoes cognitivas",
+      "keywords": ["sempre", "nunca", "todo mundo", "catastrofe", "horrivel", "fracasso", "fracassar", "falhar", "tcc"],
+      "note": "Distorcoes cognitivas sao atalhos mentais que aumentam sofrimento e reduzem nuance.",
+      "question": "Existe algum sempre, nunca ou tudo/nada deixando essa cena maior?"
+    },
+    {
+      "approach": "TCC",
+      "author": "TCC",
+      "concept": "reestruturacao cognitiva",
+      "keywords": ["evidencia", "prova", "pensamento", "alternativa", "realista", "tcc", "estudo"],
+      "note": "Reestruturacao cognitiva busca uma leitura mais precisa, nao positiva a qualquer custo.",
+      "question": "Qual seria uma interpretacao alternativa que ainda respeita sua dor?"
+    },
+    {
+      "approach": "TCC",
+      "author": "TCC",
+      "concept": "evitacao",
+      "keywords": ["evito", "fujo", "adiar", "nao encaro", "deixo pra depois"],
+      "note": "A evitacao alivia no curto prazo, mas pode manter o medo no longo prazo.",
+      "question": "O que voce evita que talvez precise de uma aproximacao pequena e segura?"
+    },
+    {
+      "approach": "TCC",
+      "author": "TCC",
+      "concept": "ativacao comportamental",
+      "keywords": ["sem vontade", "parado", "desanimado", "nao faco nada", "isolado"],
+      "note": "Ativacao comportamental usa pequenas acoes para reabrir contato com energia, rotina e sentido.",
+      "question": "Qual acao de cinco minutos poderia reduzir 1% da inercia?"
+    },
+    {
+      "approach": "DBT",
+      "author": "DBT",
+      "concept": "validacao",
+      "keywords": ["validar", "faz sentido", "me entende", "acolhimento", "nao sou louco"],
+      "note": "A DBT valida a emocao antes de tentar mudar comportamento.",
+      "question": "O que nessa emocao faz sentido, considerando o que voce viveu?"
+    },
+    {
+      "approach": "DBT",
+      "author": "DBT",
+      "concept": "regulacao emocional",
+      "keywords": ["regular", "intenso", "fora de controle", "explodir", "desespero"],
+      "note": "Regulacao emocional reduz intensidade antes de exigir decisao complexa.",
+      "question": "O que baixaria a intensidade em um ponto agora?"
+    },
+    {
+      "approach": "DBT",
+      "author": "DBT",
+      "concept": "tolerancia ao mal-estar",
+      "keywords": ["aguentar", "mal-estar", "insuportavel", "crise", "urgente"],
+      "note": "Tolerancia ao mal-estar ajuda a atravessar picos emocionais sem piorar a situacao.",
+      "question": "Como atravessar os proximos dez minutos sem se machucar nem piorar a cena?"
+    },
+    {
+      "approach": "ACT",
+      "author": "ACT",
+      "concept": "desfusao cognitiva",
+      "keywords": ["pensamento", "grudado", "minha mente", "acredito", "verdade absoluta"],
+      "note": "A ACT separa voce dos pensamentos: ter um pensamento nao obriga obedecer a ele.",
+      "question": "Como fica essa frase se voce disser: minha mente esta contando a historia de que...?"
+    },
+    {
+      "approach": "ACT",
+      "author": "ACT",
+      "concept": "valores",
+      "keywords": ["valor", "importa", "sentido", "quero ser", "direcao"],
+      "note": "Valores apontam direcao de vida mesmo quando a emocao nao desaparece.",
+      "question": "Que valor voce quer preservar na forma como responde a isso?"
+    },
+    {
+      "approach": "Humanista",
+      "author": "Rogers",
+      "concept": "congruencia",
+      "keywords": ["verdade", "autentico", "fingir", "nao sou eu", "mascara"],
+      "note": "A abordagem humanista observa a distancia entre experiencia interna e forma externa de se apresentar.",
+      "question": "O que voce mostraria se pudesse ser um pouco mais congruente agora?"
+    },
+    {
+      "approach": "Gestalt",
+      "author": "Gestalt",
+      "concept": "aqui e agora",
+      "keywords": ["agora", "corpo", "sinto", "presente", "percebo"],
+      "note": "A Gestalt traz a experiencia para o aqui e agora, observando corpo, emocao e contato.",
+      "question": "O que voce percebe agora no corpo, antes de explicar a historia?"
+    },
+    {
+      "approach": "Sistemica",
+      "author": "Sistemica",
+      "concept": "padrao relacional",
+      "keywords": ["familia", "grupo", "sempre acontece", "papel", "sistema"],
+      "note": "A sistemica olha para padroes entre pessoas, nao apenas para um individuo isolado.",
+      "question": "Que padrao se repete entre voce e as outras pessoas nessa cena?"
+    },
+    {
+      "approach": "Apego",
+      "author": "Apego",
+      "concept": "apego ansioso",
+      "keywords": ["medo de perder", "abandono", "responde", "sumiu", "preciso de garantia"],
+      "note": "O apego ansioso busca proximidade e garantia quando percebe risco de abandono.",
+      "question": "Que garantia voce esta tentando obter, e como poderia pedir isso com menos urgencia?"
+    },
+    {
+      "approach": "Apego",
+      "author": "Apego",
+      "concept": "apego evitativo",
+      "keywords": ["me afasto", "sumo", "nao preciso", "frio", "evito depender"],
+      "note": "O apego evitativo tenta proteger autonomia reduzindo necessidade de contato.",
+      "question": "Voce esta se afastando por escolha livre ou por medo de precisar?"
+    },
+    {
+      "approach": "Mindfulness",
+      "author": "Mindfulness",
+      "concept": "observacao sem julgamento",
+      "keywords": ["observar", "julgar", "respirar", "presenca", "atencao"],
+      "note": "Mindfulness treina observar sensacoes e pensamentos sem entrar automaticamente neles.",
+      "question": "O que muda se voce observar essa emocao por dez segundos sem discutir com ela?"
+    }
+  ]
+}

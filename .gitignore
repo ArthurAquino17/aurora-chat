@@ -1,0 +1,7 @@
+.env
+node_modules/
+data/users.json
+__pycache__/
+.build-venv/
+build/
+dist/data/
